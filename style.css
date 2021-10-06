@@ -350,6 +350,7 @@ footer .footer .column .copyright {
   }
   .cover-page .banner .image img {
     width: 100%;
+    padding: 0;
   }
   .quote-box .image {
     padding: 20px;
@@ -390,6 +391,18 @@ footer .footer .column .copyright {
   nav ul li a {
     display: block;
     margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 243px) {
+  .cover-page {
+    height: 160vh;
+  }
+}
+
+@media screen and (max-width: 217px) {
+  .cover-page {
+    height: 170vh;
   }
 }
 /*# sourceMappingURL=style.css.map */

@@ -290,6 +290,7 @@ footer {
         padding: 20px;
         img {
           width: 100%;
+          padding: 0;
         }
       }
     }
@@ -343,5 +344,17 @@ footer {
         }
       }
     }
+  }
+}
+
+@media screen and (max-width: 243px) {
+  .cover-page {
+    height: 160vh;
+  }
+}
+
+@media screen and (max-width: 217px) {
+  .cover-page {
+    height: 170vh;
   }
 }
