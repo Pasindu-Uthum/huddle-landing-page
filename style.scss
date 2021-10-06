@@ -282,6 +282,28 @@ footer {
   }
 }
 
+@media screen and (max-width: 555px) {
+  .cover-page {
+    height: 140vh;
+    .banner {
+      .image {
+        padding: 20px;
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+  .quote-box {
+    .image {
+      padding: 20px;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
 @media screen and (max-width: 631px) {
   footer {
     .question {
@@ -304,6 +326,21 @@ footer {
         padding: 15px 50px;
         border: none;
         font-size: 1.2rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 479px) {
+  nav {
+    ul {
+      li {
+        display: block;
+        float: left;
+        a {
+          display: block;
+          margin-top: 20px;
+        }
       }
     }
   }
